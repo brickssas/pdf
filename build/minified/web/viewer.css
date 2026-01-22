@@ -8558,3 +8558,48 @@ dialog :link{
     display:none;
   }
 }
+.toolbar{
+  display:none !important;
+}
+
+#viewerContainer{
+  inset:0 !important;
+}
+:root{
+  --body-bg-color:#fff !important;
+}
+
+html,
+body,
+#outerContainer,
+#mainContainer,
+#viewerContainer{
+  background:#fff !important;
+  background-color:#fff !important;
+}
+
+.pdfViewer .page{
+  margin:0 auto !important;
+  border:none !important;
+  box-shadow:none !important;
+}
+
+.pdfViewer{
+  padding:0 !important;
+  padding-top:0 !important;
+  margin-top:0 !important;
+}
+
+.pdfViewer .page:first-child{
+  margin-top:0 !important;
+}
+
+#viewer{
+  padding-top:0 !important;
+  margin-top:0 !important;
+}
+
+#mainContainer{
+  padding-top:0 !important;
+  margin-top:0 !important;
+}
